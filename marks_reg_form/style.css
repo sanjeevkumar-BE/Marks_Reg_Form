@@ -1,0 +1,65 @@
+
+        .container{
+            width: 80%;
+            margin: 0 auto;
+            background-color: aliceblue;
+            height: 100%;
+        }
+        .container1{
+            width: 80%;
+            margin: 0 auto;
+            background-color: aliceblue;
+            height: 100vh;
+        }
+        .cen{
+            text-align: center;
+        }
+        .login-box{
+            height: 50vh;
+            width: 30%;
+           border: 1px solid black;
+            margin: 0 auto;
+
+        }
+        .login-box:hover{
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        }
+        input{
+            width: 70%;
+        }
+        .log{
+            margin-top: 15vh;
+            margin-left: 5vw;
+        }
+        
+        @media screen and (max-width:768px) {
+            .login-box{
+                width: 100%;
+            }
+        }
+
+        table{
+            border: 1px solid black;
+            width: 100%;
+            padding: 3%;
+        }
+        th{
+            border: 1px solid black;
+            padding: 3%;
+            color: white;
+            background-color: black;
+        }
+        td{
+            border: 1px solid black;
+            padding: 3%;
+            
+        }
+        .btn-pri{
+            background-color: cornflowerblue;
+        
+        }
+        .btn-d{
+            background-color: crimson;
+            
+        }
+  
